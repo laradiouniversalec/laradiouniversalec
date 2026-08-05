@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>La Radio Universal EC</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#050816;
+    color:white;
+}
+
+/* PORTADA */
+
+.hero{
+    min-height:100vh;
+    background:
+    linear-gradient(
+    rgba(0,0,0,0.65),
+    rgba(0,0,0,0.85)),
+    url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee")
+    center/cover;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+
+.contenido{
+
+    max-width:900px;
+
+}
+
+
+.logo-text{
+
+    font-size:48px;
+    font-weight:bold;
+    color:#ffd700;
+    text-shadow:0 0 20px #ffd700;
+
+}
+
+
+.slogan{
+
+    margin-top:15px;
+    font-size:25px;
+
+}
+
+
+.ecuador{
+
+    margin-top:10px;
+    font-size:18px;
+    color:#ddd;
+
+}
+
+
+/* BOTON VIVO */
+
+.btn-vivo{
+
+    display:inline-block;
+    margin-top:35px;
+    padding:18px 45px;
+    background:#e60000;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    font-size:22px;
+    font-weight:bold;
+    animation:pulso 1.5s infinite;
+
+}
+
+
+@keyframes pulso{
+
+0%{
+box-shadow:0 0 0 0 rgba(255,0,0,.7);
+}
+
+70%{
+box-shadow:0 0 0 25px rgba(255,0,0,0);
+}
+
+100%{
+box-shadow:0 0 0 0 rgba(255,0,0,0);
+}
+
+}
+
+
+.vivo{
+
+margin-top:20px;
+color:#ff3333;
+font-size:20px;
+font-weight:bold;
+
+}
+
+
+</style>
+
+</head>
+
+<body>
+
+
+<section class="hero">
+
+<div class="contenido">
+
+
+<div class="logo-text">
+
+LA RADIO UNIVERSAL EC
+
+</div>
+
+
+<div class="slogan">
+
+La voz de Ecuador para el mundo
+
+</div>
+
+
+<div class="ecuador">
+
+🇪🇨 Desde Ecuador conectando corazones alrededor del planeta 🌎
+
+</div>
+
+
+<div class="vivo">
+
+🔴 EN VIVO 24 HORAS
+
+</div>
+
+
+<a class="btn-vivo" href="#radio">
+
+▶ ESCUCHAR AHORA
+
+</a>
+
+
+</div>
+
+</section>
+<style>
+
+/* SECCIONES */
+
+.seccion{
+
+    padding:60px 20px;
+    text-align:center;
+
+}
+
+
+.titulo{
+
+    color:#ffd700;
+    font-size:35px;
+    margin-bottom:25px;
+
+}
+
+
+/* REPRODUCTOR */
+
+.radio{
+
+    background:#111827;
+    border-radius:20px;
+    padding:35px;
+    max-width:800px;
+    margin:auto;
+    box-shadow:0 0 25px rgba(255,215,0,.25);
+
+}
+
+
+audio{
+
+    width:100%;
+    margin-top:20px;
+
+}
+
+
+/* QUIENES SOMOS */
+
+.texto{
+
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+    color:#ddd;
+
+}
+
+
+/* REDES */
+
+.redes a{
+
+    display:inline-block;
+    margin:10px;
+    padding:14px 25px;
+    border-radius:30px;
+    background:#1f2937;
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+
+}
+
+
+.redes a:hover{
+
+    background:#ffd700;
+    color:#000;
+
+}
+
+
+/* CONTACTO */
+
+.contacto{
+
+    background:#0f172a;
+
+}
+
+
+/* PIE */
+
+footer{
+
+    background:#020617;
+    padding:25px;
+    text-align:center;
+    color:#aaa;
+
+}
+
+
+</style>
+
+
+<section id="radio" class="seccion">
+
+<h2 class="titulo">
+
+📻 Escucha La Radio Universal EC
+
+</h2>
+
+
+<div class="radio">
+
+
+<p>
+
+Transmitiendo desde Ecuador para el mundo
+
+</p>
+
+
+<audio controls autoplay>
+
+<source src="https://stream.zeno.fm/zbs2pyhw6bhvv" type="audio/mpeg">
+
+Tu navegador no soporta el reproductor.
+
+</audio>
+
+
+</div>
+
+</section>
+
+
+
+<section class="seccion">
+
+
+<h2 class="titulo">
+
+🌎 Quiénes Somos
+
+</h2>
+
+
+<div class="texto">
+
+
+<p>
+
+La Radio Universal EC es una emisora ecuatoriana creada para llevar nuestra voz, nuestra cultura y nuestra música más allá de nuestras fronteras.
+
+</p>
+
+
+<p>
+
+Desde Ecuador transmitimos para oyentes en todo el mundo, conectando personas, culturas y emociones a través de la radio online.
+
+</p>
+
+
+</div>
+
+
+</section>
+<section class="seccion">
+
+<h2 class="titulo">
+
+📲 Conecta con nosotros
+
+</h2>
+
+
+<div class="redes">
+
+
+<a href="#" target="_blank">
+Facebook
+</a>
+
+
+<a href="#" target="_blank">
+WhatsApp
+</a>
+
+
+<a href="#" target="_blank">
+Instagram
+</a>
+
+
+<a href="#" target="_blank">
+TikTok
+</a>
+
+
+<a href="#" target="_blank">
+YouTube
+</a>
+
+
+</div>
+
+
+</section>
+
+
+
+<section class="seccion contacto">
+
+
+<h2 class="titulo">
+
+📡 Contacto
+
+</h2>
+
+
+<div class="texto">
+
+
+<p>
+
+¿Quieres comunicarte con La Radio Universal EC?
+
+</p>
+
+
+<p>
+
+Escríbenos y forma parte de nuestra comunidad internacional.
+
+</p>
+
+
+<p>
+
+🇪🇨 Ecuador - 🌎 Mundo
+
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+<footer>
+
+
+<h3>
+LA RADIO UNIVERSAL EC
+</h3>
+
+
+<p>
+
+La voz de Ecuador para el mundo
+
+</p>
+
+
+<p>
+
+© 2026 - Todos los derechos reservados
+
+</p>
+
+
+</footer>
+
+
+</body>
+
+</html>
